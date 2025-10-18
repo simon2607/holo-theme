@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/holographic-background-1.webp"
+import HeroImage from "../../images/33.jpeg"
 import Image1 from "../../images/3D-liquid-abstract-1.webp"
 import Image2 from "../../images/3D-liquid-abstract.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
@@ -11,7 +11,7 @@ const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
+        {/* <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-black text-2xl">Performance</h3>
             <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
@@ -29,39 +29,45 @@ const FeatureSection = () => {
             <h3 className="text-white text-2xl">SEO</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
-        </div>
+        </div> */}
       </Fade>
 
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:w-1/2 my-4">
             <img
-              className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+              className="rounded-xl h-50 w-full object-cover sm:h-72 md:h-96 lg:w-70 lg:h-70"
               src={HeroImage}
               alt="HeroImage"
             ></img>
           </div>
 
-          <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
-            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Time to unlock new speeds
+          <div className="lg:w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
+            <h2 className="text- text-3xl font-semibold ">SIMPLY PLUS EDUCATION</h2>
+            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-2xl text-gradient bg-gradient-to-r from-pink to-purple">
+              Layanan Les Privat Berkualitas untuk Anak Indonesia
             </h3>
 
-            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 text-justify">
+              Simply Plus Education membantu setiap anak belajar dengan cara terbaik mereka.
+
+              Melalui layanan les privat ke rumah, kami menghadirkan pengalaman belajar yang personal, fleksibel, dan berkualitas tinggi untuk siswa PAUD, TK, SD, dan SMP.
+
+              Guru profesional kami tidak hanya mengajar, tapi juga membimbing dan memotivasi — agar anak tumbuh percaya diri, mandiri, dan berprestasi.
+
+              🎯 Belajar bukan sekadar memahami pelajaran, tapi juga membangun masa depan.
+
+              🌈 Simply Plus Education – Smart Learning Starts at Home.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
               <div className="rounded-md">
-                <a
+                {/* <a
                   href="tel:#"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
                   Call Us Now
-                </a>
+                </a> */}
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
@@ -94,23 +100,25 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
-            <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
+            <span className="text-black font-semibold font-montserrat text-2xl">
+              📚 Program Kami:
             </span>
-            <div className="mt-5">
+            <div className="mt-5 text-justify">
               <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
+                <p className="text-black text-left text-2xl">💡Les semua mata pelajaran PAUD,TK,SD,SMP</p>
+                
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
+                <p className="text-black text-2xl">💡Calistung & penguatan konsep dasar</p>
+                
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
-                <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
-                </p>
+                <p className="text-black text-2xl">💡Bahasa Inggris & Matematika kreatif</p>
+              
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">💡Persiapan ujian sekolah</p>
+              
               </div>
             </div>
           </div>
