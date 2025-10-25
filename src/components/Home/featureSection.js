@@ -3,49 +3,49 @@ import Fade from "react-reveal/Fade"
 
 // Assets
 import HeroImage from "../../images/33.jpeg"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
+import Image1 from "../../images/11.jpeg"
+import Image2 from "../../images/12.jpeg"
+import Image3 from "../../images/13.jpeg"
 
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <Fade bottom cascade>
-        {/* <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
+        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
+            <h3 className="text-white text-2xl text-center">Belajar Nyaman di Rumah Sendiri</h3>
+            {/* <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4> */}
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Guru Profesional & Peduli</h3>
+            {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Jadwal Fleksibel Sesuai Kebutuhan Keluarga</h3>
+            {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
           <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Fokus pada Pengembangan Karakter dan Kepercayaan Diri</h3>
+            {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
-        </div> */}
+        </div>
       </Fade>
 
-      <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
+      <div className="max-w-7xl mx-auto lg:px-9 md:px-4">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:w-1/2 my-4">
             <img
-              className="rounded-xl h-50 w-full object-cover sm:h-72 md:h-96 lg:w-70 lg:h-70"
+              className="rounded-xl h-50 w-full object-cover sm:h-26 md:h-76 lg:w-70 lg:h-70"
               src={HeroImage}
               alt="HeroImage"
             ></img>
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
-            <h2 className="text- text-3xl font-semibold ">SIMPLY PLUS EDUCATION</h2>
+            <h2 className="text- text-3xl font-semibold ">🌈 Simply Plus Education</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-2xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Layanan Les Privat Berkualitas untuk Anak Indonesia
+              Les Privat ke Rumah, Belajar Jadi Lebih Mudah dan Menyenangkan!
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0 text-justify">
@@ -124,20 +124,16 @@ const FeatureSection = () => {
           </div>
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
-            <h2 className="text-white text-4xl">
-              Start building amazing web experiences
+            <h2 className="text-white text-2xl">
+              🌈 Simply Plus Education 
+              
             </h2>
-            <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+            <h2 className="text-white">Les Privat ke Rumah – Belajar Nyaman, Prestasi Gemilang!</h2>
+            <p className="mt-10 text-white opacity-85">
+              Di Simply Plus Education, kami percaya bahwa setiap anak memiliki potensi luar biasa yang bisa berkembang dengan bimbingan yang tepat.
+              Kami menghadirkan layanan les privat ke rumah untuk jenjang PAUD, TK, SD, hingga SMP, dengan metode belajar yang interaktif, menyenangkan, 
+              dan disesuaikan dengan kebutuhan setiap siswa.
+              Dengan guru berpengalaman dan pendekatan pembelajaran personal, kami membantu anak belajar dengan lebih fokus, percaya diri, dan berprestasi.
             </p>
           </div>
         </div>
@@ -145,41 +141,27 @@ const FeatureSection = () => {
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          💡 Mengapa memilih Simply Plus Education?
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
-        </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+        {/* <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        
+        </h3> */}
+        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg text-justify">
+          Karena kami percaya bahwa setiap anak unik, dan mereka berhak mendapatkan pendampingan belajar yang sesuai dengan cara mereka tumbuh dan memahami dunia.
+          Simply Plus Education tidak hanya menghadirkan les privat ke rumah, tetapi juga menciptakan pengalaman belajar yang menyenangkan, bermakna, dan penuh semangat.
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          Belajar Nyaman di Rumah, Hasil Maksimal Bersama Simply Plus Education!
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        {/* <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Discover and connect
-        </h3>
+        </h3> */}
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Setiap anak adalah bintang yang bersinar dengan caranya sendiri ✨
+          Di Simply Plus Education, kami percaya bahwa potensi anak akan tumbuh maksimal jika ia belajar dengan cara yang tepat — di tempat yang membuatnya nyaman, bersama guru yang memahami kebutuhannya.Karena kami percaya, rumah bukan hanya tempat istirahat — tapi juga tempat terbaik untuk tumbuh dan belajar dengan bahagia.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -187,7 +169,7 @@ const FeatureSection = () => {
               href="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              Hubungi Kami Sekarang
             </a>
           </div>
         </div>
@@ -210,21 +192,16 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+            <h3 className="text-white text-2xl">Menulis</h3>
+           
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Fork</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">
-              PR's welcome
-            </h4>
+            <h3 className="text-white text-2xl">Membaca</h3>
+           
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Stars</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">
-              Give support
-            </h4>
+            <h3 className="text-white text-2xl">Mewarnai</h3>
           </div>
         </div>
       </Fade>

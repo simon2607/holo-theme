@@ -16,12 +16,13 @@ const Header = () => {
               SIMPLY PLUS EDUCATION!
             </h2>
 
-            {/* <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I'm a streamlined, lightweight theme starter kit crafted on
-              Gatsby. My design marries minimalist elegance with contemporary
-              flair, offering an unparalleled aesthetic experience for the
-              modern web.
-            </p> */}
+            <p className="text-justify mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              Setiap anak adalah bintang yang bersinar dengan caranya sendiri ✨
+              Di Simply Plus Education, kami percaya bahwa potensi anak akan tumbuh maksimal jika ia belajar dengan cara yang tepat — di tempat yang membuatnya nyaman, bersama guru yang memahami kebutuhannya.
+              Kami menghadirkan layanan les privat ke rumah untuk jenjang PAUD, TK, SD, hingga SMP, dengan pendekatan belajar yang personal, interaktif, dan menyenangkan.
+              Dengan guru-guru profesional dan berpengalaman, kami membantu anak untuk belajar lebih fokus, percaya diri, dan berprestasi tanpa tekanan. Belajar di Simply Plus Education bukan sekadar mengerjakan tugas,
+              tetapi menemukan semangat, rasa ingin tahu, dan kepercayaan diri untuk terus berkembang.
+            </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md">
