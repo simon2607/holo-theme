@@ -1,8 +1,12 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/3D-liquid-abstract-2.webp"
+import HeroImage from "../images/1.png"
 import BackGroud from "../images/holographic-background.webp"
+import Gallery1  from "../images/SD1.jpeg"
+import Gallery2  from "../images/tk.jpeg"
+import Gallery3  from "../images/paud.jpeg"
+import Gallery4  from "../images/SD2.jpeg"
 
 const Gallery = () => {
   return (
@@ -14,7 +18,7 @@ const Gallery = () => {
               GALLERY
             </h1>
             <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Holo Starter Theme
+              Simply Plus Education
             </h1>
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -31,13 +35,13 @@ const Gallery = () => {
 
       <div className="max-w-7xl mx-auto px-8 mt-5">
         <Fade bottom cascade>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+          <div className="grid grid-cols-4 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
             <a
               href="#"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={Gallery1}
                 loading="lazy"
                 alt="HeroImage"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -55,7 +59,7 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={Gallery2}
                 loading="lazy"
                 alt="HeroImage"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -73,7 +77,7 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={Gallery3}
                 loading="lazy"
                 alt="HeroImage"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -91,7 +95,7 @@ const Gallery = () => {
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
-                src={BackGroud}
+                src={Gallery4}
                 loading="lazy"
                 alt="HeroImage"
                 className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -103,7 +107,7 @@ const Gallery = () => {
                 Tailwind CSS
               </span>
             </a>
-            <a
+            {/* <a
               href="#"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
@@ -138,6 +142,24 @@ const Gallery = () => {
                 Fast
               </span>
             </a>
+
+            <a
+              href="#"
+              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
+            >
+              <img
+                src={BackGroud}
+                loading="lazy"
+                alt="HeroImage"
+                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
+                Fast
+              </span>
+            </a> */}
           </div>
         </Fade>
       </div>
