@@ -52,7 +52,7 @@ const Contact = () => {
                         Phone
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(0813-1456-5926) Admin1 </a>
+                        <a href="https://api.whatsapp.com/send?phone=6281314565926&text=Halo%20Simply%20Plus%20Education,%20saya%20ingin%20bertanya%20terkait%20les%20private?">(0813-1456-5926) Admin1 </a>
                         
                       </p>
                        <p className="text-neutral-500 mb-2">

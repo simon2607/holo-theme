@@ -2,7 +2,6 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 import HeroImage from "../images/1.png"
-import BackGroud from "../images/holographic-background.webp"
 import Gallery1  from "../images/paud.jpeg"
 import Gallery2  from "../images/english.jpeg"
 import Gallery3  from "../images/SD1.jpeg"
