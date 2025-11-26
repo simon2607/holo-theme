@@ -35,7 +35,7 @@ const FeatureSection = () => {
           </div>
         </div>
       </Fade>
-
+        
       <div className="max-w-7xl mx-auto lg:px-9 md:px-4">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:w-1/2 my-4">
@@ -175,6 +175,7 @@ const FeatureSection = () => {
             >
               Hubungi Kami Sekarang
             </a>
+            
           </div>
         </div>
       </div>

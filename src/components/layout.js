@@ -8,6 +8,8 @@
 import * as React from "react"
 import Footer from "./footer"
 import Navbar from "./navbar"
+import WhatsAppFloatWithPopup from "./WhatsAppFloatWithPopup";
+
 
 const Layout = ({ children }) => {
   return (
@@ -15,6 +17,9 @@ const Layout = ({ children }) => {
       <Navbar></Navbar>
       {children}
       <Footer></Footer>
+       <>
+      <WhatsAppFloatWithPopup phone="+6281234567890" />
+    </>
     </div>
   )
 }
