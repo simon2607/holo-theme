@@ -51,7 +51,7 @@ const Navbar = () => {
                 </Link>
                 <div className="items-center">
                   <a
-                    href="https://api.whatsapp.com/send?phone=6281314565926&text=Halo%20SimplyPlusEducation,%20saya%20ingin%20bertanya%20terkait%20les%20private?"
+                    href="https://api.whatsapp.com/send?phone=6281314565926&text=Halo%20Simply%20Plus%20Education,%20saya%20ingin%20bertanya%20terkait%20les%20private?"
                     className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent mt-5 py-2.5 px-4 text-base font-medium text-center text-black rounded-lg border border-purple hover:text-white border-black  hover:bg-purple"
                   >
                     Call Us Now
