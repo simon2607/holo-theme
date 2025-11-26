@@ -53,8 +53,14 @@ const Contact = () => {
                         Phone
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                        <a href="tel:+#">(0813-1456-5926) Admin1 </a>
+                        
                       </p>
+                       <p className="text-neutral-500 mb-2">
+                       <a href="tel:+#">(0812-9332-6311) Admin2 </a>
+                        
+                      </p>
+                      
                     </div>
                   </div>
                 </div>
@@ -84,7 +90,7 @@ const Contact = () => {
                       </p>
                       <p className="text-neutral-500 mb-2">
                         <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                          simplypluseducation@gmail.com
                         </a>
                       </p>
                     </div>
@@ -114,7 +120,7 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Location
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">Tangerang, Indonesia</p>
                     </div>
                   </div>
                 </div>

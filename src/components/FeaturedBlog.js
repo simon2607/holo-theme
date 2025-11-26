@@ -7,20 +7,19 @@ const FeaturedBlog = () => {
       <div className="bg-transparent">
         <div className="pt-6 px-6 lg:px-0 mx-auto max-w-screen-xl lg:pt-8  ">
           <h2 className="text-black text-4xl opacity-70 font-semibold pl-4">
-            STAY UP TO DATE
+            Pertama di Indonesia
           </h2>
           <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-            Latest Posts
+            Simply Plus Education
           </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Lorem ipsum is simply dummy text
+              🎉 PROMO AKHIR TAHUN – SIMPLY PLUS EDUCATION 🎉
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Rayakan akhir tahun dengan peningkatan prestasi! Simply Plus Education menghadirkan Promo Les Privat di Rumah untuk membantu siswa belajar lebih fokus dengan pendampingan tutor profesional.
+
+Melalui program privat 1-on-1, siswa mendapatkan bimbingan yang personal, penjelasan materi yang mudah dipahami, serta strategi belajar yang efektif sesuai kebutuhan. Cocok untuk persiapan ujian, penguatan konsep pelajaran, atau meningkatkan nilai akademik di semester baru.
             </p>
             <a
               href="/blog/blog-post"

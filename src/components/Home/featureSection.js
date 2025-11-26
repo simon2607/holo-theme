@@ -6,6 +6,10 @@ import HeroImage from "../../images/33.jpeg"
 import Image1 from "../../images/11.jpeg"
 import Image2 from "../../images/12.jpeg"
 import Image3 from "../../images/13.jpeg"
+import Image4 from "../../images/bukti1.jpeg"
+import Image5 from "../../images/bukti2.jpeg"
+import Image6 from "../../images/bukti3.jpeg"
+
 
 const FeatureSection = () => {
   return (
@@ -186,6 +190,7 @@ const FeatureSection = () => {
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block ">
             <img alt="Image" src={Image3}></img>
           </div>
+          
         </div>
       </Fade>
 
@@ -203,6 +208,22 @@ const FeatureSection = () => {
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl">Mewarnai</h3>
           </div>
+        </div>
+      </Fade>
+
+
+      <Fade bottom cascade>
+        <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
+          <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
+            <img alt="Image" src={Image4}></img>
+          </div>
+          <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
+            <img alt="Image" src={Image5}></img>
+          </div>
+          <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block ">
+            <img alt="Image" src={Image6}></img>
+          </div>
+          
         </div>
       </Fade>
       {/* 

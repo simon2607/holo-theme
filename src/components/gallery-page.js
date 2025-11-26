@@ -3,10 +3,11 @@ import Fade from "react-reveal/Fade"
 
 import HeroImage from "../images/1.png"
 import BackGroud from "../images/holographic-background.webp"
-import Gallery1  from "../images/SD1.jpeg"
-import Gallery2  from "../images/tk.jpeg"
-import Gallery3  from "../images/paud.jpeg"
+import Gallery1  from "../images/paud.jpeg"
+import Gallery2  from "../images/english.jpeg"
+import Gallery3  from "../images/SD1.jpeg"
 import Gallery4  from "../images/SD2.jpeg"
+import Gallery5  from "../images/menggambar.jpeg"
 
 const Gallery = () => {
   return (
@@ -21,10 +22,7 @@ const Gallery = () => {
               Simply Plus Education
             </h1>
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Belajar nyaman, fokus, dan personal dari rumah sendiri. Dengan bimbingan tutor 1-on-1, setiap siswa dibantu memahami materi lebih mudah, lebih percaya diri, dan siap meraih prestasi terbaik.
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">
@@ -50,13 +48,13 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Clean Animations
+                Calistung
               </span>
             </a>
 
-            <a
+               <a
               href="#"
-              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
+              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
             >
               <img
                 src={Gallery2}
@@ -68,10 +66,29 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Easy to use
+                Study English
               </span>
             </a>
 
+               <a
+              href="#"
+              className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:h-80"
+            >
+              <img
+                src={Gallery5}
+                loading="lazy"
+                alt="HeroImage"
+                className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
+
+              <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
+                Menggambar
+              </span>
+            </a>
+
+            
             <a
               href="#"
               className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 md:col-span-2 md:h-80"
@@ -86,7 +103,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Responsive
+                Sekolah Dasar
               </span>
             </a>
 
@@ -104,7 +121,7 @@ const Gallery = () => {
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
 
               <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                Tailwind CSS
+                Sekolah Dasar
               </span>
             </a>
             {/* <a
