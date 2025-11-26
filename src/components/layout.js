@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
       {children}
       <Footer></Footer>
        <>
-      <WhatsAppFloatWithPopup phone="+6281234567890" />
+      <WhatsAppFloatWithPopup phone="+6281314565926" />
     </>
     </div>
   )

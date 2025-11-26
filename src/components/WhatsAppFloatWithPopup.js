@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 export default function WhatsAppFloatWithPopup({
-  phone = "+6281234567890",
+  phone = "+6281314565926",
   message = "Halo Simply Plus Education! Saya mau tanya nih 😊",
   size = 56,
   position = "bottom-right",
