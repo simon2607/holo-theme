@@ -16,20 +16,20 @@ const FeatureSection = () => {
     <div className="max-w-7xl mx-auto">
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="container w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl text-center">Belajar Nyaman di Rumah Sendiri</h3>
             {/* <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4> */}
           </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="container w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl">Guru Profesional & Peduli</h3>
             {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="container w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl">Jadwal Fleksibel Sesuai Kebutuhan Keluarga</h3>
             {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
+          <div className="container lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
             <h3 className="text-white text-2xl">Fokus pada Pengembangan Karakter dan Kepercayaan Diri</h3>
             {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
@@ -103,11 +103,11 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div className="container w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-2xl">
               📚 Program Kami:
             </span>
-            <div className="mt-5 text-justify">
+            <div className="container mt-5 text-justify">
               <div>
                 <p className="text-black text-left text-2xl">💡Les semua mata pelajaran PAUD,TK,SD,SMP</p>
                 
@@ -127,7 +127,7 @@ const FeatureSection = () => {
             </div>
           </div>
 
-          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+          <div className="container w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-2xl">
               🌈 Simply Plus Education 
               
