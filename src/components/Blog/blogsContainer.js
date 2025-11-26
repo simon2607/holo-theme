@@ -63,7 +63,7 @@ const BlogsContainer = ({ data }) => {
           ))}
         </div>
       </Fade>
-      <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-gradient-to-r from-pink to-purple rounded-xl flex flex-col items-center justify-center">
+      {/* <div className="w-auto p-8 m-4 h-72 sm:h-96 xs:h-96 xxs:h-96 mt-10 bg-gradient-to-r from-pink to-purple rounded-xl flex flex-col items-center justify-center">
         <h2 className=" text-3xl font-bold text-black text-center">
           STAY AHEAD OF THE CURVE
         </h2>
@@ -79,7 +79,7 @@ const BlogsContainer = ({ data }) => {
             Join The List
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

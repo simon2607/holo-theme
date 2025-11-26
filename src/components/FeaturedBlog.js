@@ -18,8 +18,7 @@ const FeaturedBlog = () => {
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
               Rayakan akhir tahun dengan peningkatan prestasi! Simply Plus Education menghadirkan Promo Les Privat di Rumah untuk membantu siswa belajar lebih fokus dengan pendampingan tutor profesional.
-
-Melalui program privat 1-on-1, siswa mendapatkan bimbingan yang personal, penjelasan materi yang mudah dipahami, serta strategi belajar yang efektif sesuai kebutuhan. Cocok untuk persiapan ujian, penguatan konsep pelajaran, atau meningkatkan nilai akademik di semester baru.
+              Melalui program privat 1-on-1, siswa mendapatkan bimbingan yang personal, penjelasan materi yang mudah dipahami, serta strategi belajar yang efektif sesuai kebutuhan. Cocok untuk persiapan ujian, penguatan konsep pelajaran, atau meningkatkan nilai akademik di semester baru.
             </p>
             <a
               href="/blog/blog-post"
@@ -46,16 +45,13 @@ Melalui program privat 1-on-1, siswa mendapatkan bimbingan yang personal, penjel
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                🎉 PROMO AKHIR TAHUN – SIMPLY PLUS EDUCATION 🎉
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Dapatkan pengalaman belajar privat yang lebih fokus, fleksibel, dan berprestasi bersama tutor profesional Simply Plus Education. Khusus periode akhir tahun, kami menghadirkan PROMO SPESIAL yang sayang untuk dilewatkan!
               </p>
               <a
-                href="/blog/blog-post-1"
+                href="/blog/blog-post"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
                 Continue Reading
@@ -78,16 +74,13 @@ Melalui program privat 1-on-1, siswa mendapatkan bimbingan yang personal, penjel
             </div>
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                📢 Simply Plus Education sedang membuka lowongan!
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Yuk bergabung bersama kami sebagai Guru Les Private dan jadi bagian dari tim pengajar profesional yang berkomitmen membantu siswa meraih prestasi terbaiknya! 🎓✨
               </p>
               <a
-                href="/blog/blog-post-2"
+                href="/blog/blog-post-1"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
                 Continue Reading

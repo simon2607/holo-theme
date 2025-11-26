@@ -1,23 +1,15 @@
 ---
 templateKey: blog-post
-title: Minimalist Gatsby Starter Theme
+title: 📚 Belajar langsung di rumah bersama Simply Plus Education
 date: 2024-03-30T18:18:16.118Z
-featuredimage: /img/holographic-background.webp
+featuredimage: /img/16.jpeg
 categories:
   - Gatsby
 description: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+ Selamat datang di Simply Plus Education, ruang berbagi seputar dunia pendidikan dan pengalaman belajar bersama layanan les privat di rumah. Melalui blog ini, kami ingin menyampaikan berbagai inspirasi, tips belajar, strategi meningkatkan nilai akademik, serta informasi penting tentang perkembangan pendidikan di Indonesia.
 ---
-## Lorem Ipsum 
+## Simply Plus Education 
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Didukung oleh tutor berpengalaman, ramah, dan profesional, Simply Plus Education menyediakan program pendampingan belajar untuk semua jenjang, mulai dari TK, SD, SMP, SMA, hingga persiapan ujian seperti UTBK, Tes Masuk Sekolah Favorit, dan Bahasa Asing. Setiap siswa mendapat perhatian penuh 100% karena sesi berlangsung one-on-one langsung di rumah, sehingga proses belajar lebih fokus, tanpa tekanan, dan hasil belajar dapat terlihat secara signifikan.
 
-## Simply Dummy Text
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-
-
-## Typesetting
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Kami percaya bahwa setiap anak punya cara belajar yang berbeda. Karena itu, kami menyusun strategi, modul, dan evaluasi khusus sesuai kebutuhan siswa. Dengan pendekatan yang menyenangkan dan interaktif, belajar menjadi lebih mudah dan menyenangkan.

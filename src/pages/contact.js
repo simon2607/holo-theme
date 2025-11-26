@@ -5,7 +5,7 @@ import Button from "../components/Atoms/button"
 import Fade from "react-reveal/Fade"
 import Seo from "../components/seo"
 
-import image from "../images/holographic-background.webp"
+import image from "../images/1.png"
 
 const Contact = () => {
   return (
@@ -154,69 +154,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <form className="mt-5" name="contact" method="POST" netlify>
-              <div className="flex xxs:flex-col sm:flex-row">
-                <div className="sm:mr-5 xxs:mr-0">
-                  <label>
-                    <Input
-                      placeholder="Your Name"
-                      type="text"
-                      name="name"
-                    ></Input>
-                  </label>
-                </div>
-                <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <label>
-                    <Input
-                      placeholder="Your Email"
-                      type="email"
-                      name="email"
-                    ></Input>
-                  </label>
-                </div>
-              </div>
-
-              <div className="flex mt-5 xxs:flex-col sm:flex-row">
-                <div className="sm:mr-5 xxs:mr-0">
-                  <label>
-                    <Input
-                      placeholder="Your Company"
-                      type="company"
-                      name="company"
-                    ></Input>
-                  </label>
-                </div>
-                <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <label>
-                    {" "}
-                    <Input
-                      placeholder="Your Phone"
-                      type="phone"
-                      name="phone"
-                    ></Input>
-                  </label>
-                </div>
-              </div>
-              <label>
-                <textarea
-                  className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
-                  rows="5"
-                  placeholder="How can we help you?"
-                  type="text"
-                  name="Message"
-                ></textarea>
-              </label>
-              <div>
-                <label>
-                  <Button
-                    type="submit"
-                    title="Send Message"
-                    colorClass="bg-gradient-to-r from-pink to-purple font-montserrat"
-                    marginClass="mt-5"
-                  ></Button>
-                </label>
-              </div>
-            </form>
+            
           </div>
         </Fade>
         <Fade bottom cascade>

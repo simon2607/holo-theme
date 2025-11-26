@@ -1,27 +1,29 @@
 ---
 templateKey: blog-post
-title: Lorem Ipsum Is Simply Dummy Text
+title: 📢 Simply Plus Education sedang membuka lowongan!
 date: 2024-03-30T15:39:18.616Z
-featuredimage: /img/Holographic-Liquid-1.jpg
+featuredimage: /img/lokersimplyplus.jpeg
 categories:
   - blog
 tags:
   - blog
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Yuk bergabung bersama kami sebagai Guru Les Private dan jadi bagian dari tim pengajar profesional yang berkomitmen membantu siswa meraih prestasi terbaiknya! 🎓✨k.
 ---
-## Lorem Ipsum 
+## Persyaratan:
+• Laki-laki atau perempuan, maksimal usia 29 tahun
+• Minimal mahasiswa semester 6
+• Fresh graduate dipersilakan melamar
+• Diutamakan sesuai bidang keahlian
+• Berdomisili di wilayah JABODETABEK
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## 💼 Bergabung bersama Simply Plus Education berarti:
+✔ Jadwal mengajar fleksibel
+✔ Lingkungan kerja suportif
+✔ Kesempatan berkembang dan pelatihan tutor
+✔ Pengalaman mengajar yang dapat memperkuat portofolio profesional
 
-## Simply Dummy Text
+📩 Kirim CV & berkas lamaran ke:
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+📱 0813-1456-5926 / 0812-9332-6311
 
-
-
-## Typesetting
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+📧 simplypluseducation.com
