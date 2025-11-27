@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: 📢 Simply Plus Education sedang membuka lowongan!
 date: 2024-03-30T15:39:18.616Z
-featuredimage: /img/lokersimplyplus.jpeg
+featuredimage: /img/lokergurusimply.jpeg
 categories:
   - blog
 tags:

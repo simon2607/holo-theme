@@ -2,11 +2,13 @@
 templateKey: blog-post
 title: 🎉 Promo Les Private Akhir Tahun – Simply Plus Education! 🎉
 date: 2024-03-30T15:02:06.069Z
-featuredimage: /img/about.jpg
+featuredimage: /img/Untitled-4.jpg
 categories:
   - blog
 tags:
-  - blog
+  - promo les private akhir tahun
+  - promo les private simply plus education
+  - promo les private simply plus
 description: Dapatkan pengalaman belajar privat yang lebih fokus, fleksibel, dan berprestasi bersama tutor profesional Simply Plus Education. Khusus periode akhir tahun, kami menghadirkan PROMO SPESIAL yang sayang untuk dilewatkan!
 ---
 ## Saatnya tutup tahun dengan prestasi gemilang! ✨

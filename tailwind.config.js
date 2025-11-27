@@ -5,11 +5,20 @@ module.exports = {
 
   theme: {
     extend: {
+      keyframes: {
+        slideRight: {
+          "0%": { transform: "translateX(-50px)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         notoserif: ["Noto Serif", "sans-serif"],
       },
     },
+      },
+    },
+    animation: {
+        slideRight: "slideRight 1s ease-out forwards"
+      },
     colors: {
       black: colors.black,
       purple: "#827fb9",
