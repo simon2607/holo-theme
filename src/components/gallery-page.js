@@ -21,7 +21,7 @@ const Gallery = () => {
               Simply Plus Education
             </h1>
             <p className="text-lg mt-4 text-white opacity-70 xxs:text-sm sm:text-lg">
-            Belajar nyaman, fokus, dan personal dari rumah sendiri. Dengan bimbingan tutor 1-on-1, setiap siswa dibantu memahami materi lebih mudah, lebih percaya diri, dan siap meraih prestasi terbaik.
+            Belajar nyaman di Simply Plus Education, fokus, dan personal dari rumah sendiri. Dengan bimbingan tutor 1-on-1, setiap siswa dibantu memahami materi lebih mudah, lebih percaya diri, dan siap meraih prestasi terbaik.
             </p>
           </div>
           <div className="rounded-xl w-auto h-full object-cover flex justify-center">

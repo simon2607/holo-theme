@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Layout>
       <Seo
         title="Simply Plus Education Tangerang"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        description="Setiap anak adalah bintang yang bersinar dengan caranya sendiri ✨ Di Simply Plus Education, kami percaya bahwa potensi anak akan tumbuh maksimal jika ia belajar dengan cara yang tepat — di tempat yang membuatnya nyaman, bersama guru yang memahami kebutuhannya."
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>

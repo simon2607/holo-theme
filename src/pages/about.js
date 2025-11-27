@@ -12,8 +12,8 @@ const About = () => {
   return (
     <Layout>
       <Seo
-        title="About - Holo"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        title="Simply Plus Education - About"
+        description="Di Simply Plus Education, kami percaya bahwa setiap anak memiliki cara belajar yang unik. Karena itu, kami menghadirkan layanan les privat di rumah yang disesuaikan dengan kebutuhan, karakter, dan gaya belajar masing-masing siswa."
       ></Seo>
       <AboutHeader></AboutHeader>
       <AboutPage></AboutPage>

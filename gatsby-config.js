@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Guru Les Private Datang Ke Rumah `,
-    description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
-    siteUrl: "https://holo-theme.netlify.app/",
-    author: `Travis Lord <hi@travislord.xyz>`,
+    description: `Simply Plus Education membantu setiap anak belajar dengan cara terbaik mereka. Melalui layanan les privat ke rumah, kami menghadirkan pengalaman belajar yang personal, fleksibel, dan berkualitas tinggi untuk siswa PAUD, TK, SD, dan SMP. Guru profesional kami tidak hanya mengajar, tapi juga membimbing dan memotivasi — agar anak tumbuh percaya diri, mandiri, dan berprestasi.`,
+    siteUrl: "https://simplypluseducation.site/",
+    author: `Simon Kasih H`,
   },
   plugins: [
     `gatsby-plugin-image`,
