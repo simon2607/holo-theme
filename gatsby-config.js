@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Guru Les Private Datang Ke Rumah `,
+    title: `Guru Les Private Tangerang `,
     description: `Simply Plus Education membantu setiap anak belajar dengan cara terbaik mereka. Melalui layanan les privat ke rumah, kami menghadirkan pengalaman belajar yang personal, fleksibel, dan berkualitas tinggi untuk siswa PAUD, TK, SD, dan SMP. Guru profesional kami tidak hanya mengajar, tapi juga membimbing dan memotivasi — agar anak tumbuh percaya diri, mandiri, dan berprestasi.`,
     siteUrl: "https://simplypluseducation.site/",
     author: `Simon Kasih H`,

@@ -12,7 +12,7 @@ const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Seo
-        title="Simply Plus Education Tangerang"
+        title="Simply Plus Education | Les Private Terdekat"
         description="Setiap anak adalah bintang yang bersinar dengan caranya sendiri ✨ Di Simply Plus Education, kami percaya bahwa potensi anak akan tumbuh maksimal jika ia belajar dengan cara yang tepat — di tempat yang membuatnya nyaman, bersama guru yang memahami kebutuhannya."
       ></Seo>
       <Header></Header>

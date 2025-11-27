@@ -2,13 +2,13 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/33.jpeg"
+import HeroImage from "../../images/simplypluseducation.jpg"
 import Image1 from "../../images/11.jpeg"
 import Image2 from "../../images/12.jpeg"
 import Image3 from "../../images/13.jpeg"
-import Image4 from "../../images/bukti1.jpeg"
-import Image5 from "../../images/bukti2.jpeg"
-import Image6 from "../../images/bukti3.jpeg"
+import Image4 from "../../images/bukti1.jpg"
+import Image5 from "../../images/bukti2.jpg"
+import Image6 from "../../images/bukti3.jpg"
 
 
 const FeatureSection = () => {
