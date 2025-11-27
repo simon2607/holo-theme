@@ -21,7 +21,7 @@ const Footer = () => {
               {/* Ikon Sosial Media */}
               <div className="flex items-center gap-3 mt-4">
                 <a href="https://www.instagram.com/simplypluseducation?igsh=MWR0eTRiMHF6YTgyeg%3D%3D&utm_source=qr" 
-                target="_blank"
+                
                 aria-label="Instagram"
                 title="Instagram">
                   <Instagram className="w-6 h-6 text-black hover:text-white transition" />
@@ -39,30 +39,6 @@ const Footer = () => {
                 </span>
               </p>
 
-              <div className="text-black font-bold block-inline">
-                <p>
-                  <a className="text-black font-bold block-inline" href="/">
-                    Holo
-                  </a>
-                  <a
-                    className="text-black font-semibold ml-1"
-                    target="_blank"
-                    href="https://travislord.xyz"
-                  >
-                    By TL
-                  </a>
-                  <a
-                    href="https://github.com/lilxyzz/holo-theme"
-                    target="_blank"
-                  >
-                    <img
-                      className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
-                      alt="GitHub"
-                    />
-                  </a>
-                </p>
-              </div>
             </div>
 
             <div className="place-self-end self-center xxs:hidden lg:block">
