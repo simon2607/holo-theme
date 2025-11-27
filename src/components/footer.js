@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Instagram, Music2 } from "lucide-react"
+import { Instagram,  } from "lucide-react"
 
 import logo from "../images/1.png"
 

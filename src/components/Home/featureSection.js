@@ -2,13 +2,13 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/simplypluseducation.jpg"
-import Image1 from "../../images/11.jpeg"
-import Image2 from "../../images/12.jpeg"
-import Image3 from "../../images/13.jpeg"
-import Image4 from "../../images/bukti1.jpg"
-import Image5 from "../../images/bukti2.jpg"
-import Image6 from "../../images/bukti3.jpg"
+import HeroImage from "../../images/simplypluseducation.webp"
+import Image1 from "../../images/simplyplusmenulis.webp"
+import Image2 from "../../images/simplyplusmembaca.webp"
+import Image3 from "../../images/simplyplusmewarnai.webp"
+import Image4 from "../../images/bukti1.webp"
+import Image5 from "../../images/bukti2.webp"
+import Image6 from "../../images/bukti3.webp"
 
 
 const FeatureSection = () => {
@@ -36,11 +36,11 @@ const FeatureSection = () => {
         </div>
       </Fade>
         
-      <div className="max-w-7xl mx-auto lg:px-9 md:px-4">
+       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:w-1/2 my-4">
             <img
-              className="rounded-xl h-50 w-full object-cover sm:h-26 md:h-76 lg:w-70 lg:h-70"
+              className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               src={HeroImage}
               alt="HeroImage"
             ></img>
