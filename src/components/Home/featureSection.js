@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/simplypluseducation.webp"
+import HeroImage from "../../images/simplypluseducation.jpg"
 import Image1 from "../../images/simplyplusmenulis.webp"
 import Image2 from "../../images/simplyplusmembaca.webp"
 import Image3 from "../../images/simplyplusmewarnai.webp"
@@ -18,20 +18,16 @@ const FeatureSection = () => {
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="container w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl text-center">Belajar Nyaman di Rumah Sendiri</h3>
-            {/* <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4> */}
           </div>
 
           <div className="container w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl">Guru Profesional & Peduli</h3>
-            {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
           <div className="container w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h3 className="text-white text-2xl">Jadwal Fleksibel Sesuai Kebutuhan Keluarga</h3>
-            {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
           <div className="container lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
             <h3 className="text-white text-2xl">Fokus pada Pengembangan Karakter dan Kepercayaan Diri</h3>
-            {/* <h4 className="mt-10 text-white opacity-70 text-xl">100</h4> */}
           </div>
         </div>
       </Fade>
@@ -40,8 +36,9 @@ const FeatureSection = () => {
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:w-1/2 my-4">
             <img
-              className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"              src={HeroImage}
-              alt="HeroImage"
+              className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"              
+              src={HeroImage}
+              alt="Simply Plus Eduacation Image"
             ></img>
           </div>
 
@@ -65,12 +62,7 @@ const FeatureSection = () => {
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
               <div className="rounded-md">
-                {/* <a
-                  href="tel:#"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
-                >
-                  Call Us Now
-                </a> */}
+               
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a

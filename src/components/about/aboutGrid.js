@@ -1,5 +1,5 @@
 import React from "react"
-import AboutTeamCard from "./aboutTeamCard"
+
 
 import IMAGE1 from "../../images/2.jpeg"
 import IMAGE2 from "../../images/16.jpeg"

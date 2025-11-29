@@ -10,17 +10,19 @@ const Header = () => {
         <div className="container my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
             <h1 className="text-black text-3xl font-semibold opacity-60">
-              HELLO!! WELCOME WEBSITE
+              Selamat Datang di Simply Plus Education
             </h1>
-            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">              SIMPLY PLUS EDUCATION!
+            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-3xl xs:text-3xl sm:text-3xl lg:text3xl">
+              Setiap anak adalah bintang yang bersinar dengan caranya sendiri ✨
             </h2>
 
             <p className="text-justify mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Setiap anak adalah bintang yang bersinar dengan caranya sendiri ✨
-              Di Simply Plus Education, kami percaya bahwa potensi anak akan tumbuh maksimal jika ia belajar dengan cara yang tepat — di tempat yang membuatnya nyaman, bersama guru yang memahami kebutuhannya.
-              Kami menghadirkan layanan les privat ke rumah untuk jenjang PAUD, TK, SD, hingga SMP, dengan pendekatan belajar yang personal, interaktif, dan menyenangkan.
-              Dengan guru-guru profesional dan berpengalaman, kami membantu anak untuk belajar lebih fokus, percaya diri, dan berprestasi tanpa tekanan. Belajar di Simply Plus Education bukan sekadar mengerjakan tugas,
-              tetapi menemukan semangat, rasa ingin tahu, dan kepercayaan diri untuk terus berkembang.
+              Di Simply Plus Education, kami percaya bahwa setiap anak memiliki potensi besar yang akan berkembang optimal ketika ia belajar dengan cara yang tepat — di lingkungan yang nyaman, bersama guru yang memahami kebutuhan belajarnya.
+              Kami menyediakan layanan les privat ke rumah di Tangerang untuk jenjang PAUD, TK, SD, hingga SMP, dengan pendekatan personal, interaktif, dan menyenangkan.
+              Didukung oleh guru-guru profesional, berpengalaman, dan berdedikasi, kami membantu anak belajar lebih fokus, percaya diri, dan berprestasi tanpa tekanan.
+              Bagi kami, belajar bukan hanya soal mengerjakan tugas, tetapi juga tentang menumbuhkan semangat belajar, rasa ingin tahu, dan kepercayaan diri dalam setiap langkah perkembangan anak.
+              Simply Plus Education — Temani belajar, tumbuhkan potensi. 🌟
+              
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

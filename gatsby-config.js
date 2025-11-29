@@ -3,6 +3,7 @@ module.exports = {
     title: `Guru Les Private Tangerang `,
     description: `Simply Plus Education membantu setiap anak belajar dengan cara terbaik mereka. Melalui layanan les privat ke rumah, kami menghadirkan pengalaman belajar yang personal, fleksibel, dan berkualitas tinggi untuk siswa PAUD, TK, SD, dan SMP. Guru profesional kami tidak hanya mengajar, tapi juga membimbing dan memotivasi — agar anak tumbuh percaya diri, mandiri, dan berprestasi.`,
     siteUrl: "https://simplypluseducation.site/",
+    keywords: "les privat tangerang, les privat ke rumah tangerang, les privat PAUD tangerang, les privat TK tangerang, les privat SD tangerang, les privat SMP tangerang, guru privat tangerang,",
     author: `Simon Kasih H`,
   },
   plugins: [

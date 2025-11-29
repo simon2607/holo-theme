@@ -54,6 +54,7 @@ exports.createPages = ({ graphql, actions }) => {
     return null
   })
 }
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
@@ -64,4 +65,16 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      title: String!
+      description: String
+      keywords: String
+      tags: [String]
+      featuredimage: File @fileByRelativePath
+    }
+  `)
 }
