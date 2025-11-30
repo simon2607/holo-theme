@@ -9,10 +9,10 @@ const Header = () => {
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
         <div className="container my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h1 className="text-black text-3xl font-semibold opacity-60">
+            <h1 className="text-black text-4xl font-semibold opacity-60">
               Selamat Datang di Simply Plus Education
             </h1>
-            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-3xl xs:text-3xl sm:text-3xl lg:text3xl">
+            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-3xl xs:text-6xl sm:text-3xl lg:text3xl">
               Setiap anak adalah bintang yang bersinar dengan caranya sendiri ✨
             </h2>
 

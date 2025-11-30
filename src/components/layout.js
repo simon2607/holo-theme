@@ -20,9 +20,9 @@ const Layout = ({ children }) => {
   return (
     <div>
        <Seo title="Home" />
-      {children}
+
       <Navbar></Navbar>
-       
+      {children}
       <Footer></Footer>
        <>
       <WhatsAppFloatWithPopup phone="+6281314565926" />

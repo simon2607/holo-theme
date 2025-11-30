@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade"
 import HeroImage from "../../images/simplypluseducation.jpg"
 import Image1 from "../../images/simplyplusmenulis.webp"
 import Image2 from "../../images/simplyplusmembaca.webp"
-import Image3 from "../../images/simplyplusmewarnai.webp"
+import Image3 from "../../images/menggambar.jpeg"
 import Image4 from "../../images/bukti1.webp"
 import Image5 from "../../images/bukti2.webp"
 import Image6 from "../../images/bukti3.webp"
@@ -32,18 +32,18 @@ const FeatureSection = () => {
         </div>
       </Fade>
         
-       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
+  <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:w-1/2 my-4">
             <img
-              className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"              
+              className="rounded-xl h-56 w-full object-cover sm:h-92 md:h-96 lg:w-full lg:h-71"
               src={HeroImage}
-              alt="Simply Plus Eduacation Image"
+              alt="HeroImage"
             ></img>
           </div>
 
-          <div className="lg:w-1/2 sm:text-center lg:text-left flex flex-col justify-center">
-            <h2 className="text- text-3xl font-semibold ">🌈 Simply Plus Education</h2>
+          <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">            
+          <h2 className="text- text-3xl font-semibold ">🌈 Simply Plus Education</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-2xl text-gradient bg-gradient-to-r from-pink to-purple">
               Les Privat ke Rumah, Belajar Jadi Lebih Mudah dan Menyenangkan!
             </h3>
