@@ -12,7 +12,7 @@ const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Seo
-      title="Les Privat Tangerang"
+      title="Les Private Tangerang"
       description="Les privat ke rumah berkualitas untuk PAUD, TK, SD dan SMP di Tangerang"
       keywords="les privat tangerang, guru privat tangerang"
       />

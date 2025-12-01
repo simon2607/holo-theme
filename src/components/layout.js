@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
 
   return (
     <div>
-       <Seo title="Home" />
+       <Seo/>
 
       <Navbar></Navbar>
       {children}
