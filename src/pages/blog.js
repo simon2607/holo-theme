@@ -13,9 +13,12 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Seo
-        title="Simply Plus Education - Blog"
-        description="Selamat datang di Simply Plus Education, ruang berbagi seputar dunia pendidikan dan pengalaman belajar bersama layanan les privat di rumah. Melalui blog ini, kami ingin menyampaikan berbagai inspirasi, tips belajar, strategi meningkatkan nilai akademik, serta informasi penting tentang perkembangan pendidikan di Indonesia."
-      ></Seo>
+        title="Blog"
+        description="Tips belajar, artikel pendidikan, dan info terbaru dari Simply Plus Education. Les privat datang ke rumah untuk TK, SD, SMP, SMA."
+        pathname="/blog"
+        keywords="blog pendidikan, tips belajar, artikel pendidikan, les privat, TK, SD, SMP, SMA"
+      />
+
       <BlogHeader post={HeaderPost} />
       <BlogsContainer data={otherPosts} />
     </Layout>

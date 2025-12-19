@@ -11,10 +11,14 @@ import AboutHeader from "../components/about/aboutHeader"
 const About = () => {
   return (
     <Layout>
-      <Seo
-      title="Tentang Kami"
-      description="Profil Simply Plus Education dan visi membantu anak belajar dengan efektif"
+     <Seo
+        title="About Us"
+        description="Tentang Simply Plus Education. Layanan les privat datang ke rumah untuk TK, SD, SMP, SMA dengan tutor profesional. Komitmen kami: pendidikan berkualitas dan menyenangkan."
+        pathname="/about"
+        keywords="tentang Simply Plus Education, les privat, tutor privat, pendidikan anak, datang ke rumah"
       />
+
+
       <AboutHeader></AboutHeader>
       <AboutPage></AboutPage>
       <AboutGrid></AboutGrid>

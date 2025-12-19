@@ -11,11 +11,14 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
-      <Seo
-      title="Les Private Tangerang"
-      description="Les privat ke rumah berkualitas untuk PAUD, TK, SD dan SMP di Tangerang"
-      keywords="les privat tangerang, guru privat tangerang"
-      />
+     <Seo
+  title="Home"
+  description="Simply Plus Education - Les privat datang ke rumah untuk TK, SD, SMP, SMA. Tutor profesional membimbing anak Anda dengan metode belajar menyenangkan."
+  pathname="/"
+  keywords="les privat, les privat TK, les privat SD, les privat SMP, les privat SMA, pendidikan anak, tutor datang ke rumah"
+/>
+
+
       <Header></Header>
       <FeatureSection></FeatureSection>
       <FeaturedBlog></FeaturedBlog>

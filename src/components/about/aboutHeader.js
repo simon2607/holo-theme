@@ -14,9 +14,9 @@ const AboutHeader = () => {
           {/* <h1 className="font-bold text-xl text-black text-gradient bg-gradient-to-r from-pink to-purple">
             Mengapa Memilih Simply Plus Education?
           </h1> */}
-          <h2 className="text-black text-6xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-3xl">
+          <h1 className="text-black text-6xl font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-3xl">
             Belajar Nyaman di Rumah, Hasil Maksimal Bersama Guru Berpengalaman & Terbaik!
-          </h2>
+          </h1>
         </div>
       </div>
     </Fade>

@@ -7,9 +7,12 @@ const GalleryPage = () => {
   return (
     <Layout>
       <Seo
-      title="Gallery Kegiatan Belajar"        
-      description="Belajar nyaman di Simply Plus Education, fokus, dan personal dari rumah sendiri. Dengan bimbingan tutor 1-on-1, setiap siswa dibantu memahami materi lebih mudah, lebih percaya diri, dan siap meraih prestasi terbaik."
-      ></Seo>
+        title="Gallery"
+        description="Galeri kegiatan Simply Plus Education. Lihat kegiatan les privat datang ke rumah untuk TK, SD, SMP, SMA dan metode belajar anak-anak."
+        pathname="/gallery"
+        keywords="galeri Simply Plus Education, les privat, kegiatan belajar, TK, SD, SMP, SMA"
+      />
+
       <Gallery></Gallery>
     </Layout>
   )

@@ -1,88 +1,72 @@
-// src/components/Seo.js
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title, keywords }) {
-  const { site } = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          title
-          description
-          author
-          siteUrl
-          keywords
+const Seo = ({ title, description, lang, pathname, keywords, image }) => {
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+            siteUrl
+            defaultKeywords
+            defaultImage
+          }
         }
       }
-    }
-  `)
+    `
+  )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
-  const metaKeywords = keywords || site.siteMetadata.keywords
+  const siteTitle = site.siteMetadata.title
+  const siteUrl = site.siteMetadata.siteUrl
+  const canonicalUrl = pathname ? `${siteUrl}${pathname}` : siteUrl
+  const metaKeywords = keywords || site.siteMetadata.defaultKeywords
+  const metaImage = image || site.siteMetadata.defaultImage
 
   return (
-    <Helmet
-      htmlAttributes={{ lang }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          name: `keywords`,
-          content: metaKeywords,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          property: `og:url`,
-          content: site.siteMetadata.siteUrl,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
+    <Helmet htmlAttributes={{ lang }}>
+      <title>{title ? `${title} | ${siteTitle}` : siteTitle}</title>
+      <link rel="canonical" href={canonicalUrl} />
+      <meta name="description" content={metaDescription} />
+      <meta name="keywords" content={metaKeywords} />
+      <meta name="robots" content="index, follow" />
+
+      {/* Open Graph */}
+      <meta property="og:title" content={title || siteTitle} />
+      <meta property="og:description" content={metaDescription} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:image" content={metaImage} />
+
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={title || siteTitle} />
+      <meta name="twitter:description" content={metaDescription} />
+      <meta name="twitter:image" content={metaImage} />
+    </Helmet>
   )
 }
 
 Seo.defaultProps = {
-  lang: `en-AU`,
-  meta: [],
-  description: ``,
-  keywords: ``,
+  lang: "id",
+  description:
+    "Simply Plus Education - Les privat datang ke rumah untuk TK, SD, SMP, SMA. Belajar mudah dan menyenangkan di rumah.",
+  pathname: "",
+  keywords: "",
+  image: "",
 }
 
 Seo.propTypes = {
+  title: PropTypes.string.isRequired,
   description: PropTypes.string,
   lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
+  pathname: PropTypes.string,
   keywords: PropTypes.string,
+  image: PropTypes.string,
 }
 
 export default Seo

@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Guru Les Private Tangerang`,
-    description: `Simply Plus Education membantu setiap anak belajar dengan cara terbaik mereka. Melalui layanan les privat ke rumah, kami menghadirkan pengalaman belajar yang personal, fleksibel, dan berkualitas tinggi untuk siswa PAUD, TK, SD, dan SMP. Guru profesional kami tidak hanya mengajar, tapi juga membimbing dan memotivasi — agar anak tumbuh percaya diri, mandiri, dan berprestasi.`,
+    title: `Simply Plus Education`,
+    description: `Simply Plus Education - Les privat datang ke rumah untuk TK, SD, SMP, SMA. Tutor profesional membimbing anak Anda dengan metode belajar menyenangkan.`,
     siteUrl: "https://simplypluseducation.site/",
-    keywords: "les privat tangerang, les privat ke rumah tangerang, les privat PAUD tangerang, les privat TK tangerang, les privat SD tangerang, les privat SMP tangerang, guru privat tangerang,",
-    author: `Simon Kasih H`,
+    author: `Simply Plus Education <info@simplypluseducation.site>`,
+    defaultKeywords: "les privat, pendidikan, TK, SD, SMP, SMA, datang ke rumah, belajar di rumah, tutor privat",
+    defaultImage: "https://simplypluseducation.site/default-image.jpg",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -108,5 +109,6 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
   ],
 }

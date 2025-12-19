@@ -69,6 +69,7 @@ const BlogPost = props => {
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description}
+        defaultKeywords={post.siteMetadata.defaultKeywords}
       />
       <Helmet>
         <title>{`${post.frontmatter.title}`}</title>
@@ -184,7 +185,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
-        keywords
+        defaultKeywords
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -193,8 +194,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
-        keywords        
+        description     
         tags           
         featuredimage {
           childImageSharp {
