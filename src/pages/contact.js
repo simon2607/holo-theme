@@ -9,13 +9,10 @@ import image from "../images/1.png"
 const Contact = () => {
   return (
     <Layout>
-    <Seo
-        title="Contact Us"
-        description="Hubungi Simply Plus Education untuk layanan les privat datang ke rumah untuk TK, SD, SMP, SMA. Kami siap membantu anak Anda belajar dengan menyenangkan."
-        pathname="/contact"
-  
-      />
-
+      <Seo
+        title="Contact - Simply Plus Education"
+        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+      ></Seo>
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>

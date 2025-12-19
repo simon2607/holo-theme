@@ -12,12 +12,9 @@ const About = () => {
   return (
     <Layout>
       <Seo
-        title="About Us"
-        description="Tentang Simply Plus Education, layanan les privat datang ke rumah untuk TK, SD, SMP, SMA."
-        pathname="/about"
-      />
-
-
+        title="Simply Plus Education - About"
+        description="Di Simply Plus Education, kami percaya bahwa setiap anak memiliki cara belajar yang unik. Karena itu, kami menghadirkan layanan les privat di rumah yang disesuaikan dengan kebutuhan, karakter, dan gaya belajar masing-masing siswa."
+      ></Seo>
       <AboutHeader></AboutHeader>
       <AboutPage></AboutPage>
       <AboutGrid></AboutGrid>

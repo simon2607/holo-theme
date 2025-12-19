@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Simply Plus Education",
-    description: "Les privat datang ke rumah untuk TK, SD, SMP, SMA. Layanan profesional dan berpengalaman.",
-    author: "@simplypluseducation",
-    siteUrl: "https://www.simplypluseducation.site", // ganti dengan domain asli
+    title: `Guru Les Private Tangerang `,
+    description: `Simply Plus Education membantu setiap anak belajar dengan cara terbaik mereka. Melalui layanan les privat ke rumah, kami menghadirkan pengalaman belajar yang personal, fleksibel, dan berkualitas tinggi untuk siswa PAUD, TK, SD, dan SMP. Guru profesional kami tidak hanya mengajar, tapi juga membimbing dan memotivasi — agar anak tumbuh percaya diri, mandiri, dan berprestasi.`,
+    siteUrl: "https://simplypluseducation.site/",
+    author: `Simon Kasih H`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -15,6 +15,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+   
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -22,7 +23,6 @@ module.exports = {
         name: "uploads",
       },
     },
-    
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -31,6 +31,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -109,34 +110,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
-    `gatsby-plugin-robots-txt`,
-    {
-      resolve: "gatsby-plugin-sitemap",
-      options: {
-        output: "/sitemap.xml", // path sitemap
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-            allSitePage {
-              nodes {
-                path
-              }
-            }
-          }
-        `,
-        resolveSiteUrl: ({ site }) => site.siteMetadata.siteUrl,
-        serialize: ({ path }) => {
-          return {
-            url: path,
-            changefreq: "weekly",
-             priority: path === "/" ? 1.0 : 0.7,
-          };
-        },
-      },
-    },
   ],
 }

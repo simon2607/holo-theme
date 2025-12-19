@@ -1,12 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { graphql, Link } from "gatsby"   // NEW: tambahkan Link
+import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import LeftIcon from "../images/left-icon.svg"
 import RightIcon from "../images/right-icon.svg"
 import styled from "styled-components"
-import { Helmet } from "react-helmet"
 
 const StyledDiv = styled.div`
   & h1 {
@@ -33,12 +32,8 @@ const StyledDiv = styled.div`
     color: #6b46c1;
   }
 `
-
 const BlogPost = props => {
   const { pageContext } = props
-  const post = props.data.markdownRemark
-  const tags = post.frontmatter.tags || []   // NEW
-
   const nextSlug = pageContext.next ? pageContext.next.fields.slug : "/"
   const previousSlug = pageContext.previous
     ? pageContext.previous.fields.slug
@@ -54,7 +49,8 @@ const BlogPost = props => {
       : false
     : false
 
-  let date = new Date(post.frontmatter.date)
+  const post = props.data.markdownRemark
+  let date = new Date(post.frontmatter.date) // assuming post.frontmatter.date is in ISO string format
   let options = { year: "numeric", month: "short", day: "numeric" }
   let formattedDate = date.toLocaleDateString("en-US", options)
   let titlaDate = date.toLocaleDateString("en-US", {
@@ -62,21 +58,15 @@ const BlogPost = props => {
     month: "long",
     day: "numeric",
   })
-  let isoDate = date.toISOString().split("T")[0]
+
+  let isoDate = date.toISOString().split("T")[0] // get the date part of the ISO string
 
   return (
     <Layout>
       <Seo
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        defaultKeywords={post.siteMetadata.defaultKeywords}
+        title="Blog"
+        description="We have been providing professional repair services in the city since 1993 ,and we have helped thousands of local car owners to restore their vehicles."
       />
-      <Helmet>
-        <title>{`${post.frontmatter.title}`}</title>
-        <meta name="description" content={`${post.frontmatter.description}`} />
-        <meta name="keywords" content={`${tags.join(", ")}`} /> {/* NEW */}
-      </Helmet>
-
       <main className="pt-8 pb-16 lg:pt-16 lg:pb-24">
         <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
@@ -85,7 +75,6 @@ const BlogPost = props => {
                 {post.frontmatter.title}
               </h1>
             </header>
-
             {post.frontmatter.featuredimage && (
               <div className="post-content-image">
                 <GatsbyImage
@@ -95,36 +84,16 @@ const BlogPost = props => {
                 />
               </div>
             )}
-
             <p className="text-base text-gray-500 dark:text-gray-400 lg:mb-2">
               <time dateTime={isoDate} title={titlaDate}>
                 {formattedDate}
               </time>
             </p>
 
-            {/* ------- TAGS SECTION ------ */}  {/* NEW */}
-            {tags.length > 0 && (
-              <div className="mb-6">
-                <strong className="mr-2">Tags:</strong>
-                {tags.map(tag => (
-                  <Link
-                    key={tag}
-                    to={`/tags/${tag.toLowerCase().replace(/ /g, "-")}/`}
-                    className="px-2 py-1 bg-gray-200 rounded-md text-sm mr-2 hover:bg-gray-300"
-                  >
-                    #{tag}
-                  </Link>
-                ))}
-              </div>
-            )}
-            {/* -------------------------- */}
-
             <StyledDiv
               className="post-content-body text-[#000000]"
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
-
-            {/* NAV NEXT / PREVIOUS */}
             <div className="flex items-center justify-between pt-8">
               <div>
                 <a
@@ -147,7 +116,6 @@ const BlogPost = props => {
                   </span>
                 </a>
               </div>
-
               <div>
                 <a
                   style={{
@@ -184,8 +152,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        description
-        
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -194,8 +160,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description     
-        tags           
+        description
         featuredimage {
           childImageSharp {
             gatsbyImageData(layout: FULL_WIDTH)
