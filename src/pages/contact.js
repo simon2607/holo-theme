@@ -13,7 +13,7 @@ const Contact = () => {
         title="Contact Us"
         description="Hubungi Simply Plus Education untuk layanan les privat datang ke rumah untuk TK, SD, SMP, SMA. Kami siap membantu anak Anda belajar dengan menyenangkan."
         pathname="/contact"
-        keywords="kontak Simply Plus Education, les privat, TK, SD, SMP, SMA, tutor privat"
+  
       />
 
 

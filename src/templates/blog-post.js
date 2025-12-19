@@ -185,7 +185,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
-        defaultKeywords
+        
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

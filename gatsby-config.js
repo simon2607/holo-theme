@@ -1,14 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Simply Plus Education`,
-    description: `Simply Plus Education - Les privat datang ke rumah untuk TK, SD, SMP, SMA. Tutor profesional membimbing anak Anda dengan metode belajar menyenangkan.`,
-    siteUrl: "https://simplypluseducation.site/",
-    author: `Simply Plus Education <info@simplypluseducation.site>`,
-    defaultKeywords: "les privat, pendidikan, TK, SD, SMP, SMA, datang ke rumah, belajar di rumah, tutor privat",
-    defaultImage: "https://simplypluseducation.site/default-image.jpg",
+    title: "Simply Plus Education",
+    description: "Les privat datang ke rumah untuk TK, SD, SMP, SMA. Layanan profesional dan berpengalaman.",
+    author: "@simplypluseducation",
+    siteUrl: "https://www.simplypluseducation.site", // ganti dengan domain asli
   },
   plugins: [
     `gatsby-plugin-image`,
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -23,6 +22,7 @@ module.exports = {
         name: "uploads",
       },
     },
+    
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -110,5 +110,33 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        output: "/sitemap.xml", // path sitemap
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage {
+              nodes {
+                path
+              }
+            }
+          }
+        `,
+        resolveSiteUrl: ({ site }) => site.siteMetadata.siteUrl,
+        serialize: ({ path }) => {
+          return {
+            url: path,
+            changefreq: "weekly",
+             priority: path === "/" ? 1.0 : 0.7,
+          };
+        },
+      },
+    },
   ],
 }

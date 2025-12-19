@@ -12,11 +12,10 @@ const Blog = ({ data }) => {
 
   return (
     <Layout>
-      <Seo
+         <Seo
         title="Blog"
-        description="Tips belajar, artikel pendidikan, dan info terbaru dari Simply Plus Education. Les privat datang ke rumah untuk TK, SD, SMP, SMA."
+        description="Artikel, tips belajar, dan informasi pendidikan dari Simply Plus Education."
         pathname="/blog"
-        keywords="blog pendidikan, tips belajar, artikel pendidikan, les privat, TK, SD, SMP, SMA"
       />
 
       <BlogHeader post={HeaderPost} />

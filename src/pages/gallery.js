@@ -6,11 +6,10 @@ import Seo from "../components/seo"
 const GalleryPage = () => {
   return (
     <Layout>
-      <Seo
+       <Seo
         title="Gallery"
-        description="Galeri kegiatan Simply Plus Education. Lihat kegiatan les privat datang ke rumah untuk TK, SD, SMP, SMA dan metode belajar anak-anak."
+        description="Galeri kegiatan dan les privat Simply Plus Education."
         pathname="/gallery"
-        keywords="galeri Simply Plus Education, les privat, kegiatan belajar, TK, SD, SMP, SMA"
       />
 
       <Gallery></Gallery>
